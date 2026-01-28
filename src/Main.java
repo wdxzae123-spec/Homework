@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        var fighter1 = 78.2;
-        var fighter2 = 82.7;
-        var generalMass = fighter1 + fighter2;
-        var differensMass = fighter1 - fighter2;
-        var overload = fighter2 % fighter1;
-        System.out.println("Общая масса=" + generalMass);
-        System.out.println("Разница в массе=" + differensMass);
-        System.out.println("Остаток=" + overload);
+        var clock = 640;
+        var oneDayWatch = 8;
+        var oneDayWorker = clock / oneDayWatch;
+        var humanWorker = oneDayWorker + 94;
+        var clock1 = humanWorker * 8;
+        System.out.println("Всего работников в компании - " + oneDayWorker + " человек");
+        System.out.println("Если в комании работает " + humanWorker + " человек,то всего " + clock1 + " часов работы может быть поделено между сотрудниками");
     }
 }
 
