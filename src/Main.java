@@ -1,14 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        var frog = 3.5;
-        var Frog1 = frog * 2;
-        var Frog2 = Frog1 / 7;
-        var Frog3 = Frog2 + 4;
-        System.out.println("Frog=" + frog);
-        System.out.println("Frog1=" + Frog1);
-        System.out.println("Frog2=" + Frog2);
-        System.out.println("Frog3=" + Frog3);
-
+        var fighter1 = 78.2;
+        var fighter2 = 82.7;
+        var generalMass = fighter1 + fighter2;
+        var differensMass = fighter2 - fighter1;
+        System.out.println("Общая масса=" + generalMass);
+        System.out.println("Разница в массе=" + differensMass);
     }
 }
 
