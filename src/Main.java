@@ -1,16 +1,12 @@
-
 public class Main {
     public static void main(String[] args) {
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
-        var Dog = dog + 4;
-        var Cat = cat + 4;
-        var Paper = paper + 4;
-
-        System.out.println("Dog=" + Dog);
-        System.out.println("Cat=" + Cat);
-        System.out.println("Paper=" + Paper);
+        var clock = 640;
+        var oneDayWatch = 8;
+        var oneDayWorker = clock / oneDayWatch;
+        var humanWorker = oneDayWorker + 94;
+        var clock1 = humanWorker * 8;
+        System.out.println("Всего работников в компании - " + oneDayWorker + " человек");
+        System.out.println("Если в комании работает " + humanWorker + " человек,то всего " + clock1 + " часов работы может быть поделено между сотрудниками");
     }
 }
 
